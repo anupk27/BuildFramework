@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PortalValidation" parallel="none">
+  <test name="SmokeScenarios">
+    <classes>
+      <class name="testcases.VerifyForgetPasswordPage"/>
+      <class name="testcases.VerifyLoginPage"/>
+    </classes>
+  </test> <!-- SmokeScenarios -->
+</suite> <!-- PortalValidation -->
